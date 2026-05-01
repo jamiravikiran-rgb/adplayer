@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdPlayer Network</title>
+
+<style>
+body {
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: #0f172a;
+color: white;
+}
+
+header {
+text-align: center;
+padding: 80px 20px;
+background: linear-gradient(135deg, #2563eb, #9333ea, #f59e0b);
+}
+
+header img {
+width: 220px;
+margin-bottom: 20px;
+}
+
+h1 {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+p {
+font-size: 1.1rem;
+margin: 10px 0;
+}
+
+.btn {
+display: inline-block;
+margin-top: 20px;
+padding: 14px 28px;
+background: #22c55e;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.btn:hover {
+background: #16a34a;
+}
+
+section {
+padding: 50px 20px;
+text-align: center;
+}
+
+h2 {
+margin-bottom: 20px;
+color: #60a5fa;
+}
+
+.grid {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+.card {
+background: #1e293b;
+padding: 20px;
+border-radius: 12px;
+width: 260px;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+footer {
+background: #020617;
+text-align: center;
+padding: 20px;
+font-size: 0.9rem;
+}
+
+@media(max-width: 600px){
+h1 { font-size: 1.8rem; }
+header img { width: 160px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png" alt="AdPlayer Logo">
+
+<h1>Advertise Your Business on LED Screens</h1>
+
+<p><strong>Plans starting from ₹499</strong></p>
+<p>Reach thousands of people daily with high-visibility digital ads.</p>
+
+<a class="btn" href="https://wa.me/917981561300">Book Your Ad Now</a>
+</header>
+
+<section>
+<h2>📍 Available Cities</h2>
+<p>Mumbai • Ahmedabad • Visakhapatnam • Vizianagaram</p>
+</section>
+
+<section>
+<h2>🚀 How It Works</h2>
+<div class="grid">
+<div class="card">1. Choose your city</div>
+<div class="card">2. Share your ad</div>
+<div class="card">3. We display it on LED screens</div>
+</div>
+</section>
+
+<section>
+<h2>🎯 Who Is It For</h2>
+<div class="grid">
+<div class="card">Restaurants</div>
+<div class="card">Gyms</div>
+<div class="card">Clinics</div>
+<div class="card">Real Estate</div>
+<div class="card">Local Businesses</div>
+</div>
+</section>
+
+<section>
+<h2>📞 Contact Us</h2>
+<p>Call / WhatsApp: +91 7981561300</p>
+<a class="btn" href="https://wa.me/917981561300">Chat on WhatsApp</a>
+</section>
+
+<footer>
+<p>© 2026 AdPlayer Network | Digital Advertising Made Simple</p>
+</footer>
+
+</body>
+</html>
